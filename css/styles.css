@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,5 +26,6 @@ body {
 
 .temporary-box {
   width: 100%;
-  height: 123px;
+  height: 108px;
+  margin-bottom: 15px;
 }
