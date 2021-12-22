@@ -15,6 +15,16 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__new-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
 }

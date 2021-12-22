@@ -23,12 +23,7 @@
   bottom: 15px;
 }
 
-.nav__new {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: flex;
+.nav__new-badge {
   position: absolute;
   right: -3px;
 }
