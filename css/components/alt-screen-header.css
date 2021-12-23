@@ -4,6 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 .alt-header__title {
@@ -15,4 +20,7 @@
 }
 .alt-header__column:last-child {
   margin-left: auto;
+}
+.alt-header__column:last-child i {
+  margin-left: 10px;
 }
