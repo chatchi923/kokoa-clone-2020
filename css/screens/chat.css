@@ -118,7 +118,7 @@
   position: fixed;
   bottom: 0;
   background-color: white;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply i {
@@ -137,7 +137,7 @@
   padding: 10px 12px;
   border: var(--main-border);
   border-radius: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -184,7 +184,7 @@
 .reply:focus-within button {
   opacity: 0;
 }
-.reply:focus-within input {
+.reply input:focus-within {
   width: 95vw;
   transform: translateX(-11%) translateY(-80px);
 }
